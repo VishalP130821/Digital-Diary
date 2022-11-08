@@ -1,0 +1,45 @@
+<%- include("partials/header"); -%>
+    <h1 class="contactUs">Contact Us</h1>
+    
+    <h4 class="contact-content"> <%= contactContent %> </h4>
+
+    <main class="form-signin ">
+        <form action="/" method="post">
+            <!-- <img class="mb-4" src="images/contact-us.png" alt="" width="72" height="71"> -->
+            <br><br><br>
+            <div class="form-floating">
+                <label for="firstName">Username</label>
+                <input type="text" name="fName" class="form-control top" id="firstName" placeholder="First Name" required>
+                
+            </div><br>
+
+
+            <div class="form-floating">
+                <label for="floatingInput">Email address</label>
+                <input type="email" name="emailId" class="form-control bottom" id="floatingInput" placeholder="name@example.com" required>
+                
+            </div><br>
+
+
+            <div class="form-floating">
+                <label for="lastName">Phone</label>
+                <input type="password" name="lName" class="form-control middle" id="lastName" placeholder="Last Name" required>
+               
+            </div><br>
+
+
+            <div class="form-floating">
+                <label for="firstName">Message</label>
+                <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+                
+            </div><br>
+
+            
+
+     
+            <button class="w-100 btn btn-lg btn-primary" type="submit">SUBMIT</button>
+            <br><br>
+           
+        </form>
+    </main>
+<%- include("partials/footer"); -%>

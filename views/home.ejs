@@ -1,0 +1,28 @@
+
+<%- include("partials/header"); -%>
+<br>
+    <h1 class="UserName">Vishal Pansuriya</h1>
+    <br>
+    <p class="start-content"> <%= startingContent %> </p>
+    <hr class="class-2">
+    <br>
+
+  <%  posts.forEach(function(post){ %>
+     
+     <h1 class="day-number"><%=post.dayNum%>  </h1>
+     <p><%= post.dateVal %> </p>
+     <h4 class="post-title"><%=post.title%></h4>
+     <p class="post-content">
+      
+  <%=post.content.substring(0, 100) + " ..."%>
+     <a href="/posts/<%=post._id%>">Read More</a>
+    
+     <br>
+
+     </p>
+     <hr class="post-hr">
+  <% }) %>
+
+
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,208 @@
+/* Login Css */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F6E3C5;
+  background-image: url("images/bg-img.jpg")
+}
+
+.login-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.alrdy-sined {
+  font-size: small;
+}
+
+.bd-class {
+  /* background-width: 100%; */
+  background-position-x: center;
+  background-position-y: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+
+.UserName {
+
+  color: #371B58;
+}
+
+.start-content {
+  color: #A25B5B;
+}
+
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 1px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+hr.class-2 {
+  border-top: 3.5px double #8c8b8b;
+}
+
+
+.day-number {
+  color: black;
+}
+
+
+.post-title {
+  color: #B22727;
+}
+
+.post-content {
+  color: #354259;
+}
+
+
+
+
+
+.contactUs {
+  color: #B22727;
+  text-align: center;
+  font-size: 45px;
+}
+
+.contact-content {
+  text-align: center;
+  font-size: 18px;
+  color: #5B4B8A;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+  /* background-image: linear-gradient(to bottom right,#F4C430, white,green); */
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  /* color: #000080; */
+}
+
+
+
+
+
+
+
+
+
+
+#hr.post-hr {
+  color: grey;
+}

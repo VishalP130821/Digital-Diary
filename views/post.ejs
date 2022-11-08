@@ -1,0 +1,29 @@
+<%- include("partials/header"); -%>
+ 
+<br><br>
+  <h1><%=dayNum%> </h1>
+  <p><%= dateVal %> </p>
+  <h4 class="post-title"><%=title%></h4>
+  <p class="post-content"><%=content%></p><br>
+  <hr>
+  <!-- <a href="">📝</a>
+  <button class="btn btn-primary" type="submit" disabled>Edit</button>
+  <br><br> -->
+
+
+
+
+  <form action="/edit" method="post">    
+    <input type="checkbox" name="checkboxEd" value="<%=postID%>" onChange="this.form.submit()">
+    <button class="btn btn-primary" type="submit" disabled>Edit</button>
+  </form>
+  <br>
+
+
+
+  <form action="/delete" method="post">    
+    <input type="checkbox" name="checkboxDel" value="<%=postID%>" onChange="this.form.submit()">
+    <button class="btn btn-danger" type="submit" disabled>Delete</button>
+  </form>
+
+<%- include("partials/footer"); -%>
